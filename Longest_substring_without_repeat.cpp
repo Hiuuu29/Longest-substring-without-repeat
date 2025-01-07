@@ -8,7 +8,7 @@ int main(){
 
     // Phương pháp 2 con trỏ
     // tạo các biến cần thiết, con trỏ bên trái, biến lưu độ dài chuỗi
-    string s = "pwwkew";
+    string s = "pwwkew"; // string to test
     unordered_map<char,int> mp;
     int left = 0;
     int result = 0;
@@ -35,5 +35,5 @@ int main(){
     cout << result << endl;
 
 
-    return 1;
+    return result;
 }
